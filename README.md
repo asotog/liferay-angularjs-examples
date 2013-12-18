@@ -2,6 +2,9 @@
 
 All of the examples above are bootrapped manually with `angular.bootstrap(... , ...)` method
 
+#### Angular Portlet
+Is just the portlet that contains the angular and angular ui files  to make work the following samples, this portlet need to be dropped in the same page,  otherwise these files need to be handled different for example, including them in the theme.
+
 #### Learning Portlet
 
 Uses `$resource` to retrieve all the liferay categories via ajax from the controller, also is using portlet `serveResource` method to  call the liferay api and process the json response. Also uses the angular `$scope.$apply` method to refresh the scope when integrating global events in js using ootb `Liferay.on(..., ...)`
