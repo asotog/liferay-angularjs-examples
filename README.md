@@ -1,6 +1,6 @@
 # Samples of using Angular JS in Liferay
 
-All of the examples above are bootrapped manually with `angular.bootstrap(... , ...)` method
+All of the examples above are bootrapped manually with `angular.bootstrap(... , ...)` method, to isolate the app module for each portlet, this approach does not use `ng-app`
 
 #### Angular Portlet
 Is just the portlet that contains the angular and angular ui files  to make work the following samples, this portlet need to be dropped in the same page,  otherwise these files need to be handled different for example, including them in the theme.
