@@ -60,8 +60,3 @@ angular.module('fourthLearningPortlet.config', []).constant('properties', {
         CATEGORY_LIST: '/fourth-learning-portlet/js/ng-app/views/category-list.html'
     }
 });
-
-
-
-
-
